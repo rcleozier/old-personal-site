@@ -1,0 +1,87 @@
+/* CSS Document */
+
+body{
+background-image:url(images/backgroundtopti.jpg);
+
+} 
+
+.header{
+width:100%;
+
+
+}
+
+.headl{
+float:left;
+margin-left:30px;
+margin-top:5px;
+
+}
+
+
+.headr{
+float:right;
+margin-right:62px;
+margin-top:54px;
+}
+
+.header a{
+font-family:Helvetica, sans-serif;
+font-size:18px;
+color:#FFFFFF;
+font-weight:bold;
+text-decoration:none;
+}
+
+.header a:hover{
+color:#0A7AAC;
+}
+
+
+
+.clear{
+clear:both;
+
+}
+
+
+
+.content{
+
+clear:both;
+width:870px;
+background-image:url(images/contentbackground2opti.jpg);
+}
+
+.footer{
+width:1024px;
+background-image:url(images/footer.gif);
+margin-bottom:-30px;
+margin-left:-15px;
+
+
+}
+
+.copy{
+font-family:Helvetica, sans-serif;
+font-weight:bold; 
+font-size:30px;
+padding:40px;
+color:#FFFFFF;
+}
+
+.img{
+
+border:solid thick #2D2D2D;
+
+}
+
+.infobox{
+	border:solid thick #2D2D2D;
+	width:80%;
+	background-color:#FFFFFF;
+	padding:15px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:16px;
+	font-weight:bold;
+}

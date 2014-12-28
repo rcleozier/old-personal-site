@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--[if lte IE 6]>
+<script type="text/javascript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+   var arVersion = navigator.appVersion.split("MSIE")
+   var version = parseFloat(arVersion[1])
+   if ((version >= 5.5) && (document.body.filters)) 
+   {
+      for(var i=0; i<document.images.length; i++)
+      {
+         var img = document.images[i]
+         var imgName = img.src.toUpperCase()
+         if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+         {
+            var imgID = (img.id) ? "id='" + img.id + "' " : ""
+            var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+            var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+            var imgStyle = "display:inline-block;" + img.style.cssText 
+            if (img.align == "left") imgStyle = "float:left;" + imgStyle
+            if (img.align == "right") imgStyle = "float:right;" + imgStyle
+            if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+            var strNewHTML = "<span " + imgID + imgClass + imgTitle
+            + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+            + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+            + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>" 
+            img.outerHTML = strNewHTML
+            i = i-1
+         }
+      }
+   }    
+}
+window.attachEvent("onload", correctPNG);
+</script>
+<![endif]-->
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from none JavaScript Browsers
+
+Image1= new Image(1000,1200)
+Image1.src = "images/background.png"
+
+Image2 = new Image(870,75)
+Image2.src = "images/chead_exp2.png"
+
+Image3 = new Image(870,75)
+Image3.src = "images/chead_portfolio.png"
+
+Image4 = new Image(870,1412)
+Image4.src = "images/contentbackground2.png"
+
+Image5 = new Image(1000,160)
+Image5.src = "images/footer.gif"
+
+Image6 = new Image(870,30)
+Image6.src = "images/contentfoot.png"
+
+// End Hiding -->
+</SCRIPT>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="The Design Portfolio of Robbins Cleozier. I am a Web Designer living in New York City" />
+<meta http-equiv="author" content="Robbins Cleozier" />
+<meta http-equiv="contact" content="rcleozier@gmail.com" />
+<meta name="copyright" content="RobCleozier.com - All Rights Reserved." />
+<meta name="keywords" content="web design, portfolio, website, blog, comments, client, inspiration, creative, concept, work," />
+<title>RobCleozier.Com | My Website Portfolio</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	
+<style type="text/css">
+<!--
+.style3 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	color: #00C;
+}
+.style4 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+}
+.style7 {font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: #000000; }
+.style8 {font-size: 18px}
+.contentdiv .content .infobox {
+	font-family: "Comic Sans MS", cursive;
+}
+.contentdiv .content table {
+	text-align: left;
+}
+-->
+</style>
+</head>
+
+<body>
+<div class="header">
+	<div class="headl">
+	  <a href="index.html"><img src="images/logo.png" border="0" /></a> </div>
+	<div class="headr">
+	 <a href="portfolio.html">Portfolio</a>  &nbsp;
+    <a href="photos.html">Photos</a> &nbsp;
+    <a href="designs.html">Designs</a> &nbsp;
+      <a href="artwork.html">Artwork</a> &nbsp;
+     <a href="hire.html">Hire Me </a> &nbsp;
+	 <p>&nbsp;  </p>
+	</div>
+</div>
+
+
+
+<div align="center" class="contentdiv">
+	<img src="images/chead_portfolio.png" width="870" height="75" />
+  <div class="content" align="center">
+  
+  <div class="infobox"> Below are a few projects that I have worked on.</div>
+  <p>&nbsp;</p>
+  <p><img src="portfolio/hg800.jpg" width="800" height="500" class="img" /></p>
+  <p><a href="http://www.hostgatorcouponsx.com/" class="style3">www.HostGatorCouponsX.Com</a></p>
+  <p><br />
+    <br />
+  </p>
+  <p><img src="portfolio/photoplay800.jpg" width="800" height="500" class="img" /></p>
+  <p><a href="http://photoplayny.com/" class="style3">www.PhotoPlayNY.Com</a></p>
+  <p>&nbsp;</p>
+  <p><img src="portfolio/Dealzu800.jpg" width="800" height="500" class="img" /></p>
+  <p><a href="http://dealzu.com/" class="style3">www.Dealzu.Com</a></p>
+  <p><img src="portfolio/bqcm800.jpg" width="800" height="500" class="img" /></p>
+  <p class="style3"><a href="http://bqcm.org/">www.BQCM.org</a></p>
+  <p class="style3"><img src="portfolio/blackberry800.jpg" width="800" height="500" class="img" /></p>
+  <p class="style3"><a href="http://blackberrybuy.info/">www.BlackBerryBuy.info</a></p>
+  <p><img src="portfolio/buynewipod800.jpg" width="800" height="500" class="img" /></p>
+  <p><a href="http://buynewipod.info/" class="style3">www.BuyNewIpod.info</a></p>
+  <p><img src="portfolio/buyreaders800.jpg" width="800" height="500" class="img" /><br />
+    </p>
+  <p><a href="http://buyreaders.info/" class="style3">www.BuyReaders.info</a></p>
+  <p><img src="portfolio/ObamaLiveTrack800.jpg" width="800" height="500" class="img" /></p>
+  <p><a href="http://obamalivetrack.com/"><span class="style3">www.ObamaLiveTrack.com</span></a></p>
+  <p><img src="portfolio/camerashop800.jpg" width="800" height="500" class="img" /></p>
+  <p><a href="http://camerashopnow.info/" class="style3">www.CameraShopNow.info</a></p>
+  <p><img src="portfolio/gpsbuy800.jpg" width="800" height="500" class="img" /></p>
+  <p><a href="http://gpsbuynow.info/"><span class="style3">www.GpsBuyNow.info</span></a></p>
+  <p><img src="portfolio/GradeDay800.jpg" width="800" height="500" class="img" /></p>
+  <p><a href="http://gradeday.com/"><span class="style3">www.GradeDay.com</span></a><br />
+    <img src="images/contentfoot.png" width="870" height="30" /></p>
+  </div>
+</div>
+
+<div align="center">
+<div class="footer">
+<p align="center" class="copy style1">2010 RobCleozier.Com </p>
+</div>
+</div>
+
+</body>
+</html>
